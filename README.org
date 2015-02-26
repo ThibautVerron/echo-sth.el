@@ -1,0 +1,8 @@
+Make use of an empty echo area to display useful messages!
+
+Code for this package is extracted from the package [[https://github.com/zk-phi/symon][symon]] (equipping
+your echo area with a system monitor!), so that other features may
+make use of the echo area.
+
+If you have an interesting function to offer, please file a pull
+request for inclusion in =echo-sth-examples.el=!
