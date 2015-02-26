@@ -3,7 +3,7 @@
 ;; Copyright (C) 2015 Thibaut Verron
 ;; Licensed under the GNU General Public License.
 
-;; Package-requires: 
+;; Package-requires: ((names "0.5") (emacs "24"))
 
 ;; This program is free software; you can redistribute it and/or
 ;; modify it under the terms of the GNU General Public License as
@@ -22,13 +22,12 @@
 ;; function returning the string you want to display.
 
 ;; For example, the following code displays the remaining time in the
-;; current `org-timer':
+;; current `org-timer' countdown:
 
 ;; (require 'org-timer)
-;; (defun echo-sth-org-timer-display-function ()
+;; (defun echo-sth-org-timer-cd-display-function ()
 ;;   (org-timer-show-remaining-time))
-;; (setq echo-sth-display-function #'echo-sth-org-timer-display-function)
-
+;; (setq echo-sth-display-function #'echo-sth-org-timer-cd-display-function)
 
 ;;; Code:
 
