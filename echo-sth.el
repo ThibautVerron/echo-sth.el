@@ -77,7 +77,7 @@
   (when -display-active (-display)))
 
 (defun -display-end ()
-  "deactivate symon display."
+  "Deactivate empty echo area display."
   (setq -display-active nil))
 
 )
